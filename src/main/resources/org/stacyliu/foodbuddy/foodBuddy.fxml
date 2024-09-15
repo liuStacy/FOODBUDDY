@@ -52,7 +52,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.stacyliu.foodbuddy.FoodBuddyController">
    <children>
       <TabPane prefHeight="377.0" prefWidth="640.0" tabClosingPolicy="UNAVAILABLE" VBox.vgrow="ALWAYS">
         <tabs>
@@ -123,7 +123,7 @@
                                     <Insets left="15.0" />
                                  </VBox.margin>
                               </Label>
-                              <TextField prefHeight="31.0" prefWidth="323.0">
+                              <TextField fx:id="categoryTextField" prefHeight="31.0" prefWidth="323.0">
                                  <VBox.margin>
                                     <Insets left="15.0" right="15.0" />
                                  </VBox.margin>
@@ -136,7 +136,7 @@
                                     <Insets left="15.0" />
                                  </VBox.margin>
                               </Label>
-                              <TextField prefHeight="30.0" prefWidth="323.0">
+                              <TextField fx:id="foodTextField" prefHeight="30.0" prefWidth="323.0">
                                  <VBox.margin>
                                     <Insets left="15.0" right="15.0" />
                                  </VBox.margin>
@@ -151,12 +151,12 @@
                               </Label>
                               <HBox prefHeight="39.0" prefWidth="323.0">
                                  <children>
-                                    <Slider blockIncrement="1.0" majorTickUnit="1.0" max="10.0" min="1.0" minorTickCount="0" prefHeight="14.0" prefWidth="257.0" showTickLabels="true" showTickMarks="true" snapToTicks="true">
+                                    <Slider fx:id="countSlider" blockIncrement="1.0" majorTickUnit="1.0" max="10.0" min="1.0" minorTickCount="0" prefHeight="14.0" prefWidth="257.0" showTickLabels="true" showTickMarks="true" snapToTicks="true">
                                        <HBox.margin>
                                           <Insets left="13.0" right="5.0" top="5.0" />
                                        </HBox.margin>
                                     </Slider>
-                                    <TextField prefHeight="23.0" prefWidth="39.0">
+                                    <TextField fx:id="countTextField" prefHeight="23.0" prefWidth="39.0">
                                        <HBox.margin>
                                           <Insets right="15.0" />
                                        </HBox.margin>
@@ -171,7 +171,7 @@
                                     <Insets left="15.0" />
                                  </VBox.margin>
                               </Label>
-                              <DatePicker>
+                              <DatePicker fx:id="expiryDatePicker">
                                  <VBox.margin>
                                     <Insets left="15.0" />
                                  </VBox.margin>
