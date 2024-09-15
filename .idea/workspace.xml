@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faa0194f-1e25-45f3-9b8b-a0b3acbff835" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/stacyliu/foodbuddy/foodBuddy.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="faa0194f-1e25-45f3-9b8b-a0b3acbff835" name="Changes" comment="FHMS-2 Added UI fxml file, initial controller class">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/stacyliu/foodbuddy/Data/FoodCategory.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/stacyliu/foodbuddy/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/stacyliu/foodbuddy/FoodBuddyApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/stacyliu/foodbuddy/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/stacyliu/foodbuddy/FoodBuddyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/stacyliu/foodbuddy/hello-view.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature/FHMS-2-Complete-UI-Implementation-Using-SceneBuilder",
+    "git-widget-placeholder": "feature/FHMS-8-Add-food-category-JSON-data",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Programming/Projects/FoodBuddy",
     "settings.editor.selected.configurable": "preferences.pluginManager"

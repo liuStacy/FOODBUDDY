@@ -1,0 +1,80 @@
+{
+  "category": "Food",
+  "subcategories": [
+    {
+      "category": "Fruits",
+      "subcategories": [
+        {"category": "Apple", "subcategories": [], "daysToExpire":14},
+        {"category": "Avocado", "subcategories": [], "daysToExpire":7},
+        {"category": "Banana", "subcategories": [], "daysToExpire":7},
+        {"category": "Grape", "subcategories": [], "daysToExpire":7},
+        {"category": "Mango", "subcategories": [], "daysToExpire":7},
+        {"category": "Orange", "subcategories": [], "daysToExpire":14},
+        {"category": "Peach", "subcategories": [], "daysToExpire":7},
+        {"category": "Strawberry", "subcategories": [], "daysToExpire":4},
+        {"category": "Watermelon", "subcategories": [], "daysToExpire":7}
+      ]
+    },
+    {
+      "category": "Vegetables",
+      "subcategories": [
+        {"category": "Broccoli", "subcategories": [], "daysToExpire":7},
+        {"category": "Carrot", "subcategories": [], "daysToExpire":7},
+        {"category": "Corn", "subcategories": [], "daysToExpire":7},
+        {"category": "Cucumber", "subcategories": [], "daysToExpire":7},
+        {"category": "Lettuce", "subcategories": [], "daysToExpire":7},
+        {"category": "Mushroom", "subcategories": [], "daysToExpire":7},
+        {"category": "Pepper", "subcategories": [], "daysToExpire":7},
+        {"category": "Patato", "subcategories": [], "daysToExpire":14},
+        {"category": "Tomato", "subcategories": [], "daysToExpire":7}
+      ]
+    },
+    {
+      "category": "Dairy",
+      "subcategories": [
+        {"category": "Milk", "subcategories": [], "daysToExpire":30},
+        {"category": "Cream", "subcategories": [], "daysToExpire":30},
+        {"category": "Butter", "subcategories": [], "daysToExpire":60},
+        {"category": "Cheese", "subcategories": [], "daysToExpire":30},
+        {"category": "Yogurt", "subcategories": []}
+      ]
+    },{
+      "category": "Egg",
+      "subcategories": [
+        {"category": "Egg", "subcategories": [], "daysToExpire":14}
+      ]
+    },{
+      "category": "Meat",
+      "subcategories": [
+        {"category": "Chichken", "subcategories": []},
+        {"category": "Beef", "subcategories": []},
+        {"category": "Bacon", "subcategories": []},
+        {"category": "Pork", "subcategories": []},
+        {"category": "Lamb", "subcategories": []}
+      ]
+    },{
+      "category": "Pantry",
+      "subcategories": [
+        {"category": "Pasta", "subcategories": []},
+        {"category": "Cereal", "subcategories": []},
+        {"category": "Rice", "subcategories": []}
+      ]
+    },{
+      "category": "Bakery",
+      "subcategories": [
+        {"category": "Bread", "subcategories": []},
+        {"category": "Cookie", "subcategories": []},
+        {"category": "Bagel", "subcategories": []},
+        {"category": "Cake", "subcategories": []}
+      ]
+    },{
+      "category": "Drink",
+      "subcategories": [
+        {"category": "Juice", "subcategories": []},
+        {"category": "Coffee", "subcategories": []},
+        {"category": "Soda", "subcategories": []},
+        {"category": "Water", "subcategories": []}
+      ]
+    }
+  ]
+}
