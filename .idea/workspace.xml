@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faa0194f-1e25-45f3-9b8b-a0b3acbff835" name="Changes" comment="FHMS-20 Create POJOs FHMS-11  Complete the add food function">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/stacyliu/foodbuddy/model/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/stacyliu/foodbuddy/model/FoodStock.java" afterDir="false" />
+    <list default="true" id="faa0194f-1e25-45f3-9b8b-a0b3acbff835" name="Changes" comment="FHMS-11  Complete the add food function">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/stacyliu/foodbuddy/model/Recipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/stacyliu/foodbuddy/model/Recipes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/stacyliu/foodbuddy/FoodBuddyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/stacyliu/foodbuddy/FoodBuddyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/stacyliu/foodbuddy/foodBuddy.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/stacyliu/foodbuddy/foodBuddy.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/FHMS-20-Create-POJOs" />
+        <entry key="$PROJECT_DIR$" value="feature/FHMS-11-Complete-the-add-food-function" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,7 +57,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature/FHMS-11-Complete-the-add-food-function",
+    "git-widget-placeholder": "feature/FHMS-13-Implement-recipe-recommendation-function-on-Home-page",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Programming/Projects/FoodBuddy",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -111,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726444411596</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="FHMS-11  Complete the add food function">
+      <option name="closed" value="true" />
+      <created>1726458593912</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726458593912</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +146,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="FHMS-8 Added food category file" />
     <MESSAGE value="FHMS-20 Create POJOs FHMS-11  Complete the add food function" />
-    <option name="LAST_COMMIT_MESSAGE" value="FHMS-20 Create POJOs FHMS-11  Complete the add food function" />
+    <MESSAGE value="FHMS-11  Complete the add food function" />
+    <option name="LAST_COMMIT_MESSAGE" value="FHMS-11  Complete the add food function" />
   </component>
 </project>

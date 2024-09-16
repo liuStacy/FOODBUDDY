@@ -123,7 +123,7 @@
                                     <Insets left="15.0" />
                                  </VBox.margin>
                               </Label>
-                              <TextField fx:id="categoryTextField" prefHeight="31.0" prefWidth="323.0">
+                              <TextField fx:id="categoryTextField" prefHeight="31.0" prefWidth="323.0" editable="false">
                                  <VBox.margin>
                                     <Insets left="15.0" right="15.0" />
                                  </VBox.margin>
@@ -136,7 +136,7 @@
                                     <Insets left="15.0" />
                                  </VBox.margin>
                               </Label>
-                              <TextField fx:id="foodTextField" prefHeight="30.0" prefWidth="323.0">
+                              <TextField fx:id="foodTextField" prefHeight="30.0" prefWidth="323.0" editable="false">
                                  <VBox.margin>
                                     <Insets left="15.0" right="15.0" />
                                  </VBox.margin>
