@@ -56,16 +56,16 @@
    <children>
       <TabPane prefHeight="377.0" prefWidth="640.0" tabClosingPolicy="UNAVAILABLE" VBox.vgrow="ALWAYS">
         <tabs>
-          <Tab text="Home">
+          <Tab text="Home" onSelectionChanged="#handleTabSelectionChanged">
                <content>
                   <AnchorPane>
                      <children>
-                        <TreeTableView AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                        <TreeTableView fx:id="homeTreeTableView" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
                           <columns>
-                              <TreeTableColumn editable="false" prefWidth="75.0" sortable="false" text="Category" />
-                            <TreeTableColumn prefWidth="75.0" text="Food" />
-                            <TreeTableColumn prefWidth="45.33331298828125" text="Count" />
-                              <TreeTableColumn fx:id="stockTable" prefWidth="75.0" text="Days Left" />
+                              <TreeTableColumn fx:id="homeCategoryTreeTableColumn" editable="false" prefWidth="75.0" sortable="false" text="Category" />
+                            <TreeTableColumn fx:id="homeFoodTreeTableColumn" prefWidth="75.0" text="Food" />
+                            <TreeTableColumn fx:id="homeCountTreeTableColumn" prefWidth="45.33331298828125" text="Count" />
+                              <TreeTableColumn fx:id="homeDaysLeftTableColumn" prefWidth="75.0" text="Days Left" />
                           </columns>
                         </TreeTableView>
                         <AnchorPane layoutX="274.0" prefHeight="354.0" prefWidth="358.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
@@ -178,12 +178,12 @@
                               </DatePicker>
                               <HBox prefHeight="37.0" prefWidth="323.0">
                                  <children>
-                                    <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Clear">
+                                    <Button fx:id="clearButton_AddFood" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Clear" onAction="#clearAddFoodData">
                                        <HBox.margin>
                                           <Insets left="60.0" right="30.0" />
                                        </HBox.margin>
                                     </Button>
-                                    <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Add">
+                                    <Button fx:id="AddButton_AddFood" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Add" onAction="#addAddFoodData">
                                        <HBox.margin>
                                           <Insets right="15.0" />
                                        </HBox.margin>
