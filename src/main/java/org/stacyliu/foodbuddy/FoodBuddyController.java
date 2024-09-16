@@ -1,12 +1,13 @@
 package org.stacyliu.foodbuddy;
 
+import com.google.gson.Gson;
 import javafx.fxml.FXML;
-import javafx.scene.control.Label;
-import javafx.scene.control.ListView;
-import javafx.scene.control.TextArea;
-import javafx.scene.control.TreeTableColumn;
-import javafx.scene.control.TreeView;
+import javafx.scene.control.*;
 import javafx.scene.input.MouseEvent;
+import org.stacyliu.foodbuddy.model.Category;
+
+import java.io.FileReader;
+import java.time.LocalDate;
 
 public class FoodBuddyController {
     @FXML
@@ -22,7 +23,22 @@ public class FoodBuddyController {
     private TextArea recipeContent3;
 
     @FXML
-    private TreeView<?> categoryList;
+    private TreeView<String> categoryList;
+
+    @FXML
+    private TextField categoryTextField;
+
+    @FXML
+    private TextField foodTextField;
+
+    @FXML
+    private TextField countTextField;
+
+    @FXML
+    private Slider countSlider;
+
+    @FXML
+    private DatePicker expiryDatePicker;
 
     @FXML
     private ListView<?> runningLowList;
@@ -31,26 +47,72 @@ public class FoodBuddyController {
     private ListView<?> tryNewList;
 
     @FXML
-    protected void onCategoryListClick(MouseEvent event) {
-        // Handle category list item click
-        Object selectedItem = categoryList.getSelectionModel().getSelectedItem();
-        if (selectedItem != null) {
+    public void initialize() {
+        addFoodTabSetup();
+    }
+
+    private void addFoodTabSetup() {
+        categoryListSetup();
+        sliderSetup();
+    }
+
+    private void sliderSetup() {
+        // Slider listener to update text field
+        countTextField.setText(String.valueOf((int)countSlider.getValue()));
+        countSlider.valueProperty().addListener((obs, oldVal, newVal) -> {
+            countTextField.setText(String.valueOf(newVal.intValue()));
+        });
+    }
+
+    private void categoryListSetup() {
+        // Add Food tab
+        // CategoryList data from JSON
+        Category rootCategory = loadCategoryJsonData("src/main/resources/org/stacyliu/foodbuddy/Data/FoodCategory.json");
+        if (rootCategory != null) {
+            TreeItem<String> rootItem = buildTree(rootCategory);
+            categoryList.setRoot(rootItem);
+            rootItem.setExpanded(true);
+        }
+
+        // CategoryList listener to update text fields
+        categoryList.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> {
+            if (newValue != null && newValue.getParent() != null && newValue.getParent().getValue() != null && newValue.getChildren().isEmpty()) {
+                categoryTextField.setText(newValue.getParent().getValue());
+                foodTextField.setText(newValue.getValue());
+                Integer daysToExpire = rootCategory.getDaysToExpire(newValue.getValue());
+                if (daysToExpire != null) {
+                    expiryDatePicker.setValue(LocalDate.now().plusDays(daysToExpire));
+                } else {
+                    expiryDatePicker.setValue(null);
+                }
+            } else {
+                categoryTextField.clear();
+                foodTextField.clear();
+                expiryDatePicker.setValue(null);
+            }
+        });
+    }
+
+    private Category loadCategoryJsonData(String filePath) {
+        try (FileReader reader = new FileReader(filePath)) {
+            Gson gson = new Gson();
+            return gson.fromJson(reader, Category.class);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
         }
     }
 
-    @FXML
-    protected void onRunningLowListClick(MouseEvent event) {
-        // Handle running low list item click
-        Object selectedItem = runningLowList.getSelectionModel().getSelectedItem();
-        if (selectedItem != null) {
-        }
-    }
+    private TreeItem<String> buildTree(Category category) {
+        TreeItem<String> rootItem = new TreeItem<>(category.getCategory());
 
-    @FXML
-    protected void onTryNewListClick(MouseEvent event) {
-        // Handle try new list item click
-        Object selectedItem = tryNewList.getSelectionModel().getSelectedItem();
-        if (selectedItem != null) {
+        if (category.getSubcategories() != null && !category.getSubcategories().isEmpty()) {
+            for (Category subCategory : category.getSubcategories()) {
+                TreeItem<String> childItem = buildTree(subCategory);
+                rootItem.getChildren().add(childItem);
+            }
         }
+
+        return rootItem;
     }
 }

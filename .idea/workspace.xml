@@ -4,15 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faa0194f-1e25-45f3-9b8b-a0b3acbff835" name="Changes" comment="FHMS-2 Added UI fxml file, initial controller class">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/stacyliu/foodbuddy/Data/FoodCategory.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="faa0194f-1e25-45f3-9b8b-a0b3acbff835" name="Changes" comment="FHMS-8 Added food category file">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/stacyliu/foodbuddy/model/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/stacyliu/foodbuddy/FoodBuddyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/stacyliu/foodbuddy/FoodBuddyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/stacyliu/foodbuddy/FoodBuddyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/stacyliu/foodbuddy/FoodBuddyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/stacyliu/foodbuddy/Data/FoodCategory.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/stacyliu/foodbuddy/Data/FoodCategory.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/stacyliu/foodbuddy/foodBuddy.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/stacyliu/foodbuddy/foodBuddy.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -49,7 +61,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature/FHMS-8-Add-food-category-JSON-data",
+    "git-widget-placeholder": "feature/FHMS-20-Create-POJOs",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Programming/Projects/FoodBuddy",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -84,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726100281923</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="FHMS-8 Added food category file">
+      <option name="closed" value="true" />
+      <created>1726430159086</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726430159086</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,7 +118,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="feature/FHMS-2-Complete-UI-Implementation-Using-SceneBuilder" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -112,6 +132,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="FHMS-8 Added food category file" />
+    <option name="LAST_COMMIT_MESSAGE" value="FHMS-8 Added food category file" />
   </component>
 </project>
