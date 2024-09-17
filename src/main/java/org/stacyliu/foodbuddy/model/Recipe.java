@@ -4,7 +4,6 @@ public class Recipe {
 
     private String name;
     private String difficulty;
-    private String mainIngredients;
     private String ingredients;
     private String instructions;
     private String totalTime;
@@ -24,14 +23,6 @@ public class Recipe {
 
     public void setDifficulty(String difficulty) {
         this.difficulty = difficulty;
-    }
-
-    public String getMainIngredients() {
-        return mainIngredients;
-    }
-
-    public void setMainIngredients(String mainIngredients) {
-        this.mainIngredients = mainIngredients;
     }
 
     public String getIngredients() {

@@ -25,7 +25,7 @@
         {"category": "Lettuce", "subcategories": [], "daysToExpire":7},
         {"category": "Mushroom", "subcategories": [], "daysToExpire":7},
         {"category": "Pepper", "subcategories": [], "daysToExpire":7},
-        {"category": "Patato", "subcategories": [], "daysToExpire":14},
+        {"category": "Potato", "subcategories": [], "daysToExpire":14},
         {"category": "Tomato", "subcategories": [], "daysToExpire":7}
       ]
     },
@@ -46,7 +46,7 @@
     },{
       "category": "Meat",
       "subcategories": [
-        {"category": "Chichken", "subcategories": []},
+        {"category": "Chicken", "subcategories": []},
         {"category": "Beef", "subcategories": []},
         {"category": "Bacon", "subcategories": []},
         {"category": "Pork", "subcategories": []},

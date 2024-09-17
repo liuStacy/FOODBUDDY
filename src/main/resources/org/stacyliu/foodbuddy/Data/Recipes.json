@@ -1,0 +1,201 @@
+[
+  {
+    "name": "Spaghetti Bolognese",
+    "difficulty": "Easy",
+    "ingredients": "Spaghetti, Ground Beef, Onion, Garlic, Tomato Sauce, Olive Oil, Parmesan Cheese, Salt, Pepper",
+    "instructions": "  1. Boil water in a large pot and cook the spaghetti according to package instructions.\n  2. In a separate pan, heat olive oil and sauté chopped onion and garlic until softened.\n  3. Add ground beef to the pan and cook until browned.\n  4. Stir in tomato sauce and season with salt and pepper. Simmer for 15 minutes.\n  5. Drain the spaghetti and mix with the sauce.\n  6. Serve topped with grated Parmesan cheese.",
+    "totalTime": "30 minutes",
+    "lastUpdated": "2024-09-16"
+  },
+  {
+    "name": "Chicken Stir-Fry",
+    "difficulty": "Medium",
+    "ingredients": "Chicken Breast, Bell Peppers, Broccoli, Carrots, Soy Sauce, Garlic, Ginger, Olive Oil, Rice",
+    "instructions": "  1. Cut chicken breast into thin slices and season with salt and pepper.\n  2. Heat olive oil in a large pan and cook the chicken until no longer pink.\n  3. Remove the chicken from the pan and set aside.\n  4. In the same pan, sauté garlic and ginger until fragrant.\n  5. Add chopped bell peppers, broccoli, and carrots. Stir-fry for 5-7 minutes.\n  6. Return the chicken to the pan and pour in soy sauce. Cook for another 2 minutes.\n  7. Serve hot with steamed rice.",
+    "totalTime": "25 minutes",
+    "lastUpdated": "2024-09-15"
+  },
+  {
+    "name": "Beef Stroganoff",
+    "difficulty": "Hard",
+    "ingredients": "Beef Sirloin, Mushrooms, Onion, Garlic, Sour Cream, Dijon Mustard, Beef Broth, Butter, Egg Noodles",
+    "instructions": "  1. Slice beef into thin strips and season with salt and pepper.\n  2. Heat butter in a large pan and cook the beef until browned. Remove from the pan and set aside.\n  3. In the same pan, sauté chopped onion and garlic until softened.\n  4. Add sliced mushrooms and cook until tender.\n  5. Stir in beef broth and Dijon mustard. Simmer for 10 minutes.\n  6. Return the beef to the pan and stir in sour cream. Cook for another 2 minutes.\n  7. Serve the beef stroganoff over cooked egg noodles.",
+    "totalTime": "40 minutes",
+    "lastUpdated": "2024-09-14"
+  },
+  {
+    "name": "Caesar Salad",
+    "difficulty": "Easy",
+    "ingredients": "Romaine Lettuce, Chicken Breast, Croutons, Parmesan Cheese, Caesar Dressing, Olive Oil, Garlic, Lemon Juice",
+    "instructions": "  1. Grill the chicken breast until cooked through, then slice it into strips.\n  2. In a large bowl, tear romaine lettuce into bite-sized pieces.\n  3. Toss the lettuce with Caesar dressing, croutons, and grated Parmesan cheese.\n  4. Top the salad with the grilled chicken strips.\n  5. Garnish with additional Parmesan and a squeeze of lemon juice before serving.",
+    "totalTime": "20 minutes",
+    "lastUpdated": "2024-09-13"
+  },
+  {
+    "name": "Shrimp Scampi",
+    "difficulty": "Medium",
+    "ingredients": "Shrimp, Garlic, Butter, White Wine, Lemon, Parsley, Spaghetti, Olive Oil",
+    "instructions": "  1. Cook spaghetti in a large pot of salted water until al dente. Drain and set aside.\n  2. In a large pan, melt butter and olive oil over medium heat.\n  3. Add minced garlic and sauté for 1 minute until fragrant.\n  4. Add shrimp to the pan and cook until pink and opaque, about 2-3 minutes per side.\n  5. Pour in white wine and the juice of one lemon, simmer for 2-3 minutes.\n  6. Toss the cooked spaghetti with the shrimp and sauce in the pan.\n  7. Garnish with chopped parsley and serve immediately.",
+    "totalTime": "30 minutes",
+    "lastUpdated": "2024-09-12"
+  }, {
+  "name": "Tacos",
+  "difficulty": "Easy",
+  "ingredients": "Tortillas, Ground Beef, Lettuce, Tomato, Onion, Cheddar Cheese, Sour Cream, Taco Seasoning",
+  "instructions": "  1. Cook ground beef in a pan over medium heat until browned.\n  2. Stir in taco seasoning and water, then simmer for 5 minutes.\n  3. Warm tortillas in a dry skillet or microwave.\n  4. Fill each tortilla with ground beef, chopped lettuce, tomato, and onion.\n  5. Top with shredded cheddar cheese and a dollop of sour cream.\n  6. Serve immediately with your favorite salsa.",
+  "totalTime": "20 minutes",
+  "lastUpdated": "2024-09-16"
+},
+  {
+    "name": "Lasagna",
+    "difficulty": "Hard",
+    "ingredients": "Lasagna Noodles, Ground Beef, Ricotta Cheese, Mozzarella Cheese, Parmesan Cheese, Tomato Sauce, Garlic, Onion, Olive Oil",
+    "instructions": "  1. Preheat oven to 375°F (190°C).\n  2. Cook lasagna noodles according to package instructions. Drain and set aside.\n  3. In a pan, heat olive oil and sauté onion and garlic until soft. Add ground beef and cook until browned.\n  4. Stir in tomato sauce and simmer for 15 minutes.\n  5. Layer noodles, ricotta cheese, meat sauce, and mozzarella cheese in a baking dish.\n  6. Repeat the layers and top with grated Parmesan cheese.\n  7. Bake in the preheated oven for 40 minutes until bubbly and golden brown.",
+    "totalTime": "1 hour",
+    "lastUpdated": "2024-09-16"
+  },
+  {
+    "name": "Chicken Curry",
+    "difficulty": "Medium",
+    "ingredients": "Chicken Breast, Onion, Garlic, Ginger, Curry Powder, Coconut Milk, Tomatoes, Cilantro, Rice",
+    "instructions": "  1. Cut chicken into bite-sized pieces and season with salt.\n  2. Heat oil in a pan and sauté onion, garlic, and ginger until soft.\n  3. Stir in curry powder and cook for 1 minute until fragrant.\n  4. Add chicken to the pan and cook until browned on all sides.\n  5. Pour in coconut milk and diced tomatoes, then simmer for 20 minutes.\n  6. Serve hot over steamed rice and garnish with chopped cilantro.",
+    "totalTime": "35 minutes",
+    "lastUpdated": "2024-09-15"
+  },
+  {
+    "name": "Vegetable Stir-Fry",
+    "difficulty": "Easy",
+    "ingredients": "Broccoli, Bell Peppers, Carrots, Snow Peas, Soy Sauce, Garlic, Ginger, Olive Oil, Sesame Seeds",
+    "instructions": "  1. Heat olive oil in a large pan over medium-high heat.\n  2. Add garlic and ginger, cooking until fragrant.\n  3. Stir in chopped vegetables and cook for 5-7 minutes, stirring frequently.\n  4. Add soy sauce and cook for an additional 2 minutes.\n  5. Remove from heat and sprinkle with sesame seeds before serving.",
+    "totalTime": "20 minutes",
+    "lastUpdated": "2024-09-15"
+  },
+  {
+    "name": "Pancakes",
+    "difficulty": "Easy",
+    "ingredients": "Flour, Milk, Eggs, Sugar, Baking Powder, Butter, Maple Syrup, Salt",
+    "instructions": "  1. In a bowl, whisk together flour, sugar, baking powder, and a pinch of salt.\n  2. In another bowl, beat eggs and add milk.\n  3. Slowly combine wet ingredients with dry ingredients, mixing until smooth.\n  4. Heat a non-stick pan and melt butter over medium heat.\n  5. Pour batter into the pan and cook each pancake for 2-3 minutes per side.\n  6. Serve warm with butter and maple syrup.",
+    "totalTime": "15 minutes",
+    "lastUpdated": "2024-09-14"
+  },
+  {
+    "name": "Grilled Cheese Sandwich",
+    "difficulty": "Easy",
+    "ingredients": "Bread, Cheddar Cheese, Butter",
+    "instructions": "  1. Heat a skillet over medium heat.\n  2. Butter one side of each slice of bread.\n  3. Place a slice of cheddar cheese between two slices of bread, with buttered sides facing out.\n  4. Cook in the skillet for 2-3 minutes per side, until bread is golden brown and cheese is melted.\n  5. Serve immediately.",
+    "totalTime": "10 minutes",
+    "lastUpdated": "2024-09-14"
+  },
+  {
+    "name": "Beef Tacos",
+    "difficulty": "Easy",
+    "ingredients": "Tortillas, Ground Beef, Lettuce, Tomato, Onion, Cheddar Cheese, Sour Cream, Taco Seasoning",
+    "instructions": "  1. Cook ground beef in a pan over medium heat until browned.\n  2. Stir in taco seasoning and water, then simmer for 5 minutes.\n  3. Warm tortillas in a dry skillet or microwave.\n  4. Fill each tortilla with ground beef, chopped lettuce, tomato, and onion.\n  5. Top with shredded cheddar cheese and a dollop of sour cream.\n  6. Serve immediately with your favorite salsa.",
+    "totalTime": "20 minutes",
+    "lastUpdated": "2024-09-13"
+  },
+  {
+    "name": "French Onion Soup",
+    "difficulty": "Medium",
+    "ingredients": "Onions, Beef Broth, White Wine, Butter, Garlic, Thyme, Baguette, Gruyère Cheese",
+    "instructions": "  1. Slice onions thinly and sauté in butter over low heat until caramelized, about 20 minutes.\n  2. Add garlic and thyme, cooking for 2 minutes.\n  3. Pour in white wine and beef broth, then simmer for 20 minutes.\n  4. Toast baguette slices and top with grated Gruyère cheese.\n  5. Ladle soup into bowls, placing a toasted baguette slice on top of each.\n  6. Serve hot with extra cheese on the side.",
+    "totalTime": "45 minutes",
+    "lastUpdated": "2024-09-13"
+  },
+  {
+    "name": "Quiche Lorraine",
+    "difficulty": "Hard",
+    "ingredients": "Pie Crust, Eggs, Heavy Cream, Bacon, Gruyère Cheese, Nutmeg, Salt, Pepper",
+    "instructions": "  1. Preheat oven to 375°F (190°C).\n  2. Cook bacon in a pan until crispy, then chop into small pieces.\n  3. In a bowl, whisk together eggs, cream, salt, pepper, and a pinch of nutmeg.\n  4. Spread bacon and shredded Gruyère cheese over the pie crust.\n  5. Pour the egg mixture over the filling.\n  6. Bake in the oven for 30-35 minutes, until golden brown and set.\n  7. Let cool for 10 minutes before slicing.",
+    "totalTime": "1 hour",
+    "lastUpdated": "2024-09-12"
+  },
+  {
+    "name": "Mac and Cheese",
+    "difficulty": "Easy",
+    "ingredients": "Macaroni, Cheddar Cheese, Butter, Flour, Milk, Breadcrumbs, Salt, Pepper",
+    "instructions": "  1. Cook macaroni according to package instructions. Drain and set aside.\n  2. In a saucepan, melt butter over medium heat. Stir in flour and cook for 1 minute.\n  3. Gradually whisk in milk, cooking until the sauce thickens.\n  4. Add shredded cheddar cheese and stir until melted.\n  5. Combine the cheese sauce with the cooked macaroni.\n  6. Pour into a baking dish and top with breadcrumbs.\n  7. Bake at 375°F (190°C) for 20 minutes, until golden brown.",
+    "totalTime": "40 minutes",
+    "lastUpdated": "2024-09-12"
+  },
+  {
+    "name": "Spaghetti Carbonara",
+    "difficulty": "Medium",
+    "ingredients": "Spaghetti, Bacon, Eggs, Parmesan Cheese, Black Pepper, Salt, Olive Oil",
+    "instructions": "  1. Cook spaghetti according to package instructions, reserving some pasta water.\n  2. Fry bacon in a pan until crispy, then set aside.\n  3. In a bowl, whisk together eggs, grated Parmesan cheese, salt, and black pepper.\n  4. Add cooked spaghetti to the bacon pan, then remove from heat.\n  5. Stir in the egg mixture, adding reserved pasta water as needed to create a creamy sauce.\n  6. Serve immediately with extra Parmesan and black pepper.",
+    "totalTime": "25 minutes",
+    "lastUpdated": "2024-09-16"
+  },
+  {
+    "name": "Chicken Alfredo",
+    "difficulty": "Easy",
+    "ingredients": "Fettuccine, Chicken Breast, Heavy Cream, Parmesan Cheese, Garlic, Butter, Black Pepper, Salt",
+    "instructions": "  1. Cook fettuccine according to package instructions. Drain and set aside.\n  2. Season chicken breast with salt and pepper, then cook in a pan until golden brown and cooked through. Slice and set aside.\n  3. In the same pan, melt butter and sauté garlic until fragrant.\n  4. Stir in heavy cream and bring to a simmer.\n  5. Add grated Parmesan cheese and stir until the sauce thickens.\n  6. Combine the sauce with cooked fettuccine and sliced chicken.\n  7. Serve hot with extra Parmesan cheese.",
+    "totalTime": "30 minutes",
+    "lastUpdated": "2024-09-16"
+  },
+  {
+    "name": "Beef Stew",
+    "difficulty": "Hard",
+    "ingredients": "Beef Chuck, Carrots, Potatoes, Onion, Garlic, Tomato Paste, Beef Broth, Red Wine, Thyme, Bay Leaves",
+    "instructions": "  1. Season beef chunks with salt and pepper, then sear in a large pot until browned on all sides. Remove and set aside.\n  2. In the same pot, sauté onions and garlic until softened.\n  3. Stir in tomato paste and cook for 1 minute.\n  4. Add red wine to deglaze the pot, scraping up browned bits.\n  5. Return beef to the pot, along with carrots, potatoes, beef broth, thyme, and bay leaves.\n  6. Simmer on low heat for 2 hours, stirring occasionally.\n  7. Serve hot with crusty bread.",
+    "totalTime": "2 hours 30 minutes",
+    "lastUpdated": "2024-09-15"
+  },
+  {
+    "name": "Greek Salad",
+    "difficulty": "Easy",
+    "ingredients": "Cucumber, Tomato, Red Onion, Feta Cheese, Kalamata Olives, Olive Oil, Oregano, Lemon Juice",
+    "instructions": "  1. Chop cucumber, tomato, and red onion into bite-sized pieces.\n  2. In a large bowl, combine the vegetables with Kalamata olives and crumbled feta cheese.\n  3. Drizzle with olive oil and lemon juice, then sprinkle with oregano.\n  4. Toss everything together and season with salt and pepper to taste.\n  5. Serve chilled as a refreshing side dish.",
+    "totalTime": "10 minutes",
+    "lastUpdated": "2024-09-15"
+  },
+  {
+    "name": "Butter Chicken",
+    "difficulty": "Medium",
+    "ingredients": "Chicken Breast, Tomato Sauce, Heavy Cream, Butter, Garlic, Ginger, Garam Masala, Chili Powder, Cumin, Rice",
+    "instructions": "  1. Cut chicken into bite-sized pieces and season with salt, chili powder, and garam masala.\n  2. Heat butter in a pan and sauté garlic and ginger until fragrant.\n  3. Add seasoned chicken and cook until browned on all sides.\n  4. Stir in tomato sauce and simmer for 10 minutes.\n  5. Add heavy cream and simmer for an additional 5 minutes.\n  6. Serve hot with steamed rice and garnish with cilantro.",
+    "totalTime": "40 minutes",
+    "lastUpdated": "2024-09-14"
+  },
+  {
+    "name": "Shrimp Scampi",
+    "difficulty": "Medium",
+    "ingredients": "Shrimp, Garlic, Lemon, White Wine, Butter, Parsley, Linguine, Olive Oil",
+    "instructions": "  1. Cook linguine according to package instructions. Drain and set aside.\n  2. In a large pan, heat olive oil and sauté garlic until fragrant.\n  3. Add shrimp and cook for 2-3 minutes per side until pink and cooked through.\n  4. Stir in white wine, lemon juice, and butter, then simmer for 2 minutes.\n  5. Toss cooked linguine into the shrimp mixture.\n  6. Serve immediately, garnished with fresh parsley and extra lemon.",
+    "totalTime": "25 minutes",
+    "lastUpdated": "2024-09-14"
+  },
+  {
+    "name": "Caprese Salad",
+    "difficulty": "Easy",
+    "ingredients": "Tomato, Fresh Mozzarella, Basil, Olive Oil, Balsamic Vinegar, Salt, Pepper",
+    "instructions": "  1. Slice tomatoes and fresh mozzarella into thick rounds.\n  2. Arrange tomato and mozzarella slices on a serving platter, alternating between the two.\n  3. Tuck fresh basil leaves between the slices.\n  4. Drizzle with olive oil and balsamic vinegar.\n  5. Season with salt and pepper to taste.\n  6. Serve immediately as a refreshing appetizer or side dish.",
+    "totalTime": "10 minutes",
+    "lastUpdated": "2024-09-13"
+  },
+  {
+    "name": "Eggplant Parmesan",
+    "difficulty": "Medium",
+    "ingredients": "Eggplant, Mozzarella Cheese, Parmesan Cheese, Marinara Sauce, Flour, Eggs, Breadcrumbs, Olive Oil",
+    "instructions": "  1. Slice eggplant into 1/2 inch rounds and season with salt.\n  2. Dredge each slice in flour, then dip in beaten eggs, and finally coat with breadcrumbs.\n  3. Fry the eggplant slices in olive oil until golden brown.\n  4. In a baking dish, layer fried eggplant, marinara sauce, and mozzarella cheese.\n  5. Repeat layers, finishing with grated Parmesan cheese on top.\n  6. Bake at 375°F (190°C) for 30 minutes, until bubbly and golden brown.\n  7. Serve hot with a side of pasta or salad.",
+    "totalTime": "1 hour",
+    "lastUpdated": "2024-09-13"
+  },
+  {
+    "name": "Stuffed Peppers",
+    "difficulty": "Medium",
+    "ingredients": "Bell Peppers, Ground Beef, Rice, Tomato Sauce, Onion, Garlic, Mozzarella Cheese, Olive Oil",
+    "instructions": "  1. Preheat oven to 375°F (190°C).\n  2. Cut the tops off bell peppers and remove the seeds.\n  3. In a pan, sauté onion and garlic in olive oil until soft.\n  4. Add ground beef and cook until browned, then stir in cooked rice and tomato sauce.\n  5. Stuff the bell peppers with the beef mixture and place them in a baking dish.\n  6. Top with mozzarella cheese and cover the dish with foil.\n  7. Bake for 30 minutes, then remove the foil and bake for an additional 10 minutes until cheese is melted and bubbly.\n  8. Serve hot with a sprinkle of fresh parsley.",
+    "totalTime": "1 hour",
+    "lastUpdated": "2024-09-12"
+  },
+  {
+    "name": "Chicken Caesar Salad",
+    "difficulty": "Easy",
+    "ingredients": "Romaine Lettuce, Chicken Breast, Caesar Dressing, Parmesan Cheese, Croutons, Olive Oil, Garlic",
+    "instructions": "  1. Season chicken breast with salt and pepper, then cook in a pan until golden brown and fully cooked. Slice and set aside.\n  2. In a large bowl, toss chopped romaine lettuce with Caesar dressing.\n  3. Add sliced chicken, croutons, and grated Parmesan cheese to the salad.\n  4. Toss everything together and serve immediately with extra Parmesan and black pepper on top.",
+    "totalTime": "20 minutes",
+    "lastUpdated": "2024-09-12"
+  }
+]

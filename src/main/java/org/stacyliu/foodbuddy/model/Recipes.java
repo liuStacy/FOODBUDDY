@@ -1,16 +1,33 @@
 package org.stacyliu.foodbuddy.model;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.*;
 
 public class Recipes {
+    // Singleton
+    private static final Recipes INSTANCE = new Recipes();
 
+    // Static block here to load data during class initialization
+    static {
+        INSTANCE.loadFromFile();
+    }
+    private static final String FILE_PATH = "src/main/resources/org/stacyliu/foodbuddy/Data/Recipes.json";
     private List<Recipe> recipeList;
 
     public List<Recipe> getRecipeList() {
         return recipeList;
+    }
+
+    private Recipes() {
+        this.recipeList = new ArrayList<>();
+    }
+
+    // Static method to get the single instance
+    public static Recipes getInstance() {
+        return INSTANCE;
     }
 
     public void setRecipeList(List<Recipe> recipeList) {
@@ -28,34 +45,41 @@ public class Recipes {
      * @return a sorted list of recipes based on the weight score of the main ingredients
      */
     public List<Recipe> getSortedRecipesBasedOnWeight(List<Food> foodStock) {
-        // treeMap can naturally sort the recipes based on key (weightScore)
-        // Key: weightScore, Value: Recipe
-        Map<Integer, Recipe> treeMap = new TreeMap<>();
-        for (Recipe recipe : recipeList) {
-            int weightScore = 0;
-            for (String ingredient : recipe.getMainIngredients().split(",")) {
-                for (int i = 0; i < foodStock.size(); i++) {
-                    Food food = foodStock.get(i);
-                    if (food.getName().equals(ingredient)) {
-                        if (i < foodStock.size()/3) {
-                            if (food.getDaysLeft() <= 3) {
-                                weightScore += 3;
-                            } else {
-                                weightScore += 2;
-                            }
+        return recipeList.stream().sorted(Comparator.comparingInt(recipe -> -getRecipeScore(recipe, foodStock))).toList();
+    }
+
+    private int getRecipeScore(Recipe recipe, List<Food> foodStock) {
+        int weightScore = 0;
+        for (String ingredient : recipe.getIngredients().split(",")) {
+            for (int i = 0; i < foodStock.size(); i++) {
+                Food food = foodStock.get(i);
+                if (ingredient.trim().contains(food.getName())) {
+                    if (i < foodStock.size()/3) {
+                        if (food.getDaysLeft() <= 3) {
+                            weightScore += 3;
                         } else {
-                            weightScore += 1;
+                            weightScore += 2;
                         }
-                        if (food.getQuantity() > 5) {
-                            weightScore += 1;
-                        }
+                    } else {
+                        weightScore += 1;
+                    }
+                    if (food.getQuantity() > 5) {
+                        weightScore += 1;
                     }
                 }
             }
-            treeMap.put(weightScore, recipe);
         }
-        List<Recipe> sortedRecipes = new ArrayList<>(treeMap.values());
-        // Reverse the list to get the highest weight score first
-        return sortedRecipes.reversed();
+        return weightScore;
+    }
+
+    private void loadFromFile() {
+        ObjectMapper mapper = new ObjectMapper();
+
+        try {
+            recipeList = mapper.readValue(new File(FILE_PATH), mapper.getTypeFactory().constructCollectionType(List.class, Recipe.class));
+        } catch (IOException e) {
+            System.out.println("File does not exist or is corrupted. Initializing to empty list.");
+            recipeList = new ArrayList<>(); // Initialize to empty list if there's an error
+        }
     }
 }
