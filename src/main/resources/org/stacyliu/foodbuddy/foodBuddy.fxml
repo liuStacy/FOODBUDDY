@@ -56,7 +56,7 @@
    <children>
       <TabPane prefHeight="377.0" prefWidth="640.0" tabClosingPolicy="UNAVAILABLE" VBox.vgrow="ALWAYS">
         <tabs>
-          <Tab text="Home" onSelectionChanged="#handleTabSelectionChanged">
+          <Tab onSelectionChanged="#handleTabSelectionChanged" text="Home">
                <content>
                   <AnchorPane>
                      <children>
@@ -76,27 +76,105 @@
                                  </font>
                               </Label>
                               <Accordion layoutX="273.3333333333333" layoutY="30.0" prefHeight="343.0" prefWidth="367.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="273.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="27.33333333333337">
-                                <panes> <TitledPane animated="false" text="untitled 1">
+                                <panes> <TitledPane fx:id="titledPane1" animated="true" text="untitled 1" expanded="true">
                                     <content>
                                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                                       <children>
-                                          <TextArea fx:id="recipeContent1" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
-                                       </children>
+                                             <children>
+                                                <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <children>
+                                                      <Label fx:id="recipe1Name" maxWidth="Infinity" prefHeight="30.0" prefWidth="350.0" text="Label" alignment="CENTER">
+                                                         <VBox.margin>
+                                                            <Insets bottom="5.0" left="5.0" right="5.0" />
+                                                         </VBox.margin>
+                                                         <font>
+                                                            <Font name="System Bold" size="14.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label fx:id="recipe1Info" maxWidth="Infinity" prefHeight="20.0" prefWidth="350.0" text="Label" alignment="CENTER">
+                                                         <VBox.margin>
+                                                            <Insets bottom="5.0" left="5.0" right="5.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <Label fx:id="recipe1Ingredients" maxWidth="Infinity" prefHeight="25.0" prefWidth="350.0" text="Label" alignment="CENTER">
+                                                         <VBox.margin>
+                                                            <Insets bottom="5.0" left="5.0" right="5.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <TextArea fx:id="recipe1Instructions">
+                                                         <VBox.margin>
+                                                            <Insets left="5.0" right="5.0" />
+                                                         </VBox.margin>
+                                                      </TextArea>
+                                                   </children>
+                                                </VBox>
+                                             </children>
                                     </AnchorPane></content>
                                   </TitledPane>
-                                  <TitledPane animated="false" text="untitled 2">
+                                  <TitledPane fx:id="titledPane2" animated="true" text="untitled 2">
                                     <content>
                                       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                                              <children>
-                                                <TextArea fx:id="recipeContent2" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                <VBox prefHeight="261.0" prefWidth="364.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <children>
+                                                      <Label fx:id="recipe2Name" maxWidth="Infinity" prefHeight="30.0" prefWidth="350.0" text="Label" alignment="CENTER">
+                                                         <VBox.margin>
+                                                            <Insets bottom="5.0" left="5.0" right="5.0" />
+                                                         </VBox.margin>
+                                                         <font>
+                                                            <Font name="System Bold" size="14.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label fx:id="recipe2Info" maxWidth="Infinity" prefHeight="20.0" prefWidth="350.0" text="Label" alignment="CENTER">
+                                                         <VBox.margin>
+                                                            <Insets bottom="5.0" left="5.0" right="5.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <Label fx:id="recipe2Ingredients" maxWidth="Infinity" prefHeight="25.0" prefWidth="350.0" text="Label" alignment="CENTER">
+                                                         <VBox.margin>
+                                                            <Insets bottom="5.0" left="5.0" right="5.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <TextArea fx:id="recipe2Instructions">
+                                                         <VBox.margin>
+                                                            <Insets left="5.0" right="5.0" />
+                                                         </VBox.margin>
+                                                      </TextArea>
+                                                   </children>
+                                                </VBox>
                                              </children></AnchorPane>
                                     </content>
                                   </TitledPane>
-                                  <TitledPane animated="false" text="untitled 3">
+                                  <TitledPane fx:id="titledPane3" animated="true" text="untitled 3">
                                     <content>
                                       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                                              <children>
-                                                <TextArea fx:id="recipeContent3" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                <VBox prefHeight="264.0" prefWidth="361.0" AnchorPane.bottomAnchor="-0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <children>
+                                                      <Label fx:id="recipe3Name" maxWidth="Infinity" prefHeight="30.0" prefWidth="350.0" text="Label" alignment="CENTER">
+                                                         <VBox.margin>
+                                                            <Insets bottom="5.0" left="5.0" right="5.0" />
+                                                         </VBox.margin>
+                                                         <font>
+                                                            <Font name="System Bold" size="14.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label fx:id="recipe3Info" maxWidth="Infinity" prefHeight="20.0" prefWidth="350.0" text="Label" alignment="CENTER">
+                                                         <VBox.margin>
+                                                            <Insets bottom="5.0" left="5.0" right="5.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <Label fx:id="recipe3Ingredients" maxWidth="Infinity" prefHeight="25.0" prefWidth="350.0" text="Label" alignment="CENTER">
+                                                         <VBox.margin>
+                                                            <Insets bottom="5.0" left="5.0" right="5.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <TextArea fx:id="recipe3Instructions" >
+                                                         <VBox.margin>
+                                                            <Insets left="5.0" right="5.0" />
+                                                         </VBox.margin>
+                                                      </TextArea>
+                                                   </children>
+                                                </VBox>
                                              </children></AnchorPane>
                                     </content>
                                   </TitledPane>
@@ -123,7 +201,7 @@
                                     <Insets left="15.0" />
                                  </VBox.margin>
                               </Label>
-                              <TextField fx:id="categoryTextField" prefHeight="31.0" prefWidth="323.0">
+                              <TextField fx:id="categoryTextField" editable="false" prefHeight="31.0" prefWidth="323.0">
                                  <VBox.margin>
                                     <Insets left="15.0" right="15.0" />
                                  </VBox.margin>
@@ -136,7 +214,7 @@
                                     <Insets left="15.0" />
                                  </VBox.margin>
                               </Label>
-                              <TextField fx:id="foodTextField" prefHeight="30.0" prefWidth="323.0">
+                              <TextField fx:id="foodTextField" editable="false" prefHeight="30.0" prefWidth="323.0">
                                  <VBox.margin>
                                     <Insets left="15.0" right="15.0" />
                                  </VBox.margin>
@@ -178,12 +256,12 @@
                               </DatePicker>
                               <HBox prefHeight="37.0" prefWidth="323.0">
                                  <children>
-                                    <Button fx:id="clearButton_AddFood" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Clear" onAction="#clearAddFoodData">
+                                    <Button fx:id="clearButton_AddFood" mnemonicParsing="false" onAction="#clearAddFoodData" prefHeight="40.0" prefWidth="90.0" text="Clear">
                                        <HBox.margin>
                                           <Insets left="60.0" right="30.0" />
                                        </HBox.margin>
                                     </Button>
-                                    <Button fx:id="AddButton_AddFood" mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="Add" onAction="#addAddFoodData">
+                                    <Button fx:id="AddButton_AddFood" mnemonicParsing="false" onAction="#addAddFoodData" prefHeight="40.0" prefWidth="90.0" text="Add">
                                        <HBox.margin>
                                           <Insets right="15.0" />
                                        </HBox.margin>
