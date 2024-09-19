@@ -93,7 +93,7 @@ public class FoodStock {
         }
     }
 
-    private void loadFromFile() {
+    public void loadFromFile() {
         ObjectMapper mapper = new ObjectMapper();
         mapper.registerModule(new JavaTimeModule()); // Register the module to handle LocalDate
 
