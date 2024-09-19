@@ -40,18 +40,6 @@ public class HomeTabService {
             // Convert the daysLeft property to an ObservableValue<Integer>
             return new javafx.beans.property.SimpleIntegerProperty(cellData.getValue().getValue().getDaysLeft()).asObject();
         });
-        homeDaysLeftTableColumn.setCellFactory(column -> new TreeTableCell<Food, Integer>() {
-            @Override
-            protected void updateItem(Integer daysLeft, boolean empty) {
-                super.updateItem(daysLeft, empty);
-
-                if (empty || daysLeft == null) {
-                    setText(null);
-                } else {
-                    setText(String.valueOf(daysLeft));
-                }
-            }
-        });
 
         // Load data from FoodStock
         FoodStock foodStock = FoodStock.getInstance();
