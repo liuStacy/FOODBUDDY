@@ -1,13 +1,18 @@
 package org.stacyliu.foodbuddy;
+import java.awt.Desktop;
+import java.io.IOException;
+import java.net.URI;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import org.apache.commons.lang3.StringUtils;
 import org.stacyliu.foodbuddy.Servive.AddFoodTabService;
+import org.stacyliu.foodbuddy.Servive.GoShoppingTabService;
 import org.stacyliu.foodbuddy.Servive.HomeTabService;
 import org.stacyliu.foodbuddy.model.*;
 
+import java.net.URISyntaxException;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -15,6 +20,7 @@ public class FoodBuddyController {
 
     private final HomeTabService homeTabService = new HomeTabService();
     private final AddFoodTabService addFoodTabService = new AddFoodTabService();
+    private final GoShoppingTabService goShoppingTabService = new GoShoppingTabService();
 
     private boolean isEditMode = false;
 
@@ -102,6 +108,32 @@ public class FoodBuddyController {
 
     @FXML
     private Accordion accordion;
+
+    @FXML
+    private ListView runningLowList;
+
+    @FXML
+    private ListView tryNewList;
+
+    @FXML
+    private Button button1;
+    @FXML
+    private Button button2;
+    @FXML
+    private Button button3;
+    @FXML
+    private Button button4;
+    @FXML
+    private Button button5;
+    @FXML
+    private Button button6;
+    @FXML
+    private Button button7;
+    @FXML
+    private Button button8;
+
+
+
     @FXML
     public void initialize() {
 
@@ -112,6 +144,8 @@ public class FoodBuddyController {
 
         // Add Food Tab setup
         addFoodTabService.addFoodTabSetup(categoryList, categoryTextField, foodTextField, countTextField, expiryDatePicker, countSlider);
+
+        goShoppingTabService.goShoppingTabSetup(runningLowList, tryNewList);
         accordion.setExpandedPane(titledPane1);
     }
 
@@ -230,5 +264,110 @@ public class FoodBuddyController {
         homeTabService.homeTabSetup(homeCategoryTreeTableColumn, homeFoodTreeTableColumn, homeCountTreeTableColumn, homeDaysLeftTableColumn,
                 homeTreeTableView, recipe1Name, recipe2Name, recipe3Name, recipe1Info, recipe2Info, recipe3Info, recipe1Ingredients,
                 recipe2Ingredients, recipe3Ingredients, recipe1Instructions, recipe2Instructions, recipe3Instructions, titledPane1, titledPane2, titledPane3);
+    }
+
+    @FXML
+    public void handleButtonAction1() {
+        String url = "https://www.costco.ca/in-the-warehouse.html";
+
+
+        if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
+            try {
+                Desktop.getDesktop().browse(new URI(url));
+            } catch (IOException | URISyntaxException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+    @FXML
+    public void handleButtonAction2() {
+        String url = "https://www.loblaws.ca/print-flyer?navid=flyout-L2-Flyer";
+
+
+        if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
+            try {
+                Desktop.getDesktop().browse(new URI(url));
+            } catch (IOException | URISyntaxException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+    @FXML
+    public void handleButtonAction3() {
+        String url = "https://www.sobeys.com/en/flyer/";
+
+
+        if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
+            try {
+                Desktop.getDesktop().browse(new URI(url));
+            } catch (IOException | URISyntaxException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+    @FXML
+    public void handleButtonAction4() {
+        String url = "https://www.foodbasics.ca/flyer";
+
+
+        if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
+            try {
+                Desktop.getDesktop().browse(new URI(url));
+            } catch (IOException | URISyntaxException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+    @FXML
+    public void handleButtonAction5() {
+        String url = "https://www.nofrills.ca/print-flyer?navid=flyout-L2-Flyer";
+
+
+        if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
+            try {
+                Desktop.getDesktop().browse(new URI(url));
+            } catch (IOException | URISyntaxException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+    @FXML
+    public void handleButtonAction6() {
+        String url = "https://www.farmboy.ca/weekly-flyer-specials/";
+
+
+        if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
+            try {
+                Desktop.getDesktop().browse(new URI(url));
+            } catch (IOException | URISyntaxException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+    @FXML
+    public void handleButtonAction7() {
+        String url = "https://www.metro.ca/en/flyer";
+
+
+        if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
+            try {
+                Desktop.getDesktop().browse(new URI(url));
+            } catch (IOException | URISyntaxException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+    @FXML
+    public void handleButtonAction8() {
+        String url = "https://www.realcanadiansuperstore.ca/print-flyer?navid=flyout-L2-Flyer";
+
+
+        if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
+            try {
+                Desktop.getDesktop().browse(new URI(url));
+            } catch (IOException | URISyntaxException e) {
+                e.printStackTrace();
+            }
+        }
     }
 }

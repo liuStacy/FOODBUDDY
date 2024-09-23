@@ -346,42 +346,42 @@
                                                 <Insets left="11.0" top="5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" text="Button">
+                                          <Button fx:id="button1" mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" text="Costco" onAction="#handleButtonAction1">
                                              <VBox.margin>
                                                 <Insets bottom="5.0" left="11.0" right="5.0" top="5.0" />
                                              </VBox.margin>
                                           </Button>
-                                          <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" text="Button">
+                                          <Button fx:id="button2" mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" text="Loblaws" onAction="#handleButtonAction2">
                                              <VBox.margin>
                                                 <Insets bottom="5.0" left="11.0" right="5.0" />
                                              </VBox.margin>
                                           </Button>
-                                          <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" text="Button">
+                                          <Button fx:id="button3" mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" text="Sobeys" onAction="#handleButtonAction3">
                                              <VBox.margin>
                                                 <Insets bottom="5.0" left="11.0" right="5.0" />
                                              </VBox.margin>
                                           </Button>
-                                          <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" text="Button">
+                                          <Button fx:id="button4" mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" text="FoodBasics" onAction="#handleButtonAction4">
                                              <VBox.margin>
                                                 <Insets bottom="5.0" left="11.0" right="5.0" />
                                              </VBox.margin>
                                           </Button>
-                                          <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" text="Button">
+                                          <Button fx:id="button5" mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" text="NoFrills" onAction="#handleButtonAction5">
                                              <VBox.margin>
                                                 <Insets bottom="5.0" left="11.0" right="5.0" />
                                              </VBox.margin>
                                           </Button>
-                                          <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" text="Button">
+                                          <Button fx:id="button6" mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" text="FarmBoy" onAction="#handleButtonAction6">
                                              <VBox.margin>
                                                 <Insets bottom="5.0" left="11.0" right="5.0" />
                                              </VBox.margin>
                                           </Button>
-                                          <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" text="Button">
+                                          <Button fx:id="button7" mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" text="Metro" onAction="#handleButtonAction7">
                                              <VBox.margin>
                                                 <Insets bottom="5.0" left="11.0" right="5.0" />
                                              </VBox.margin>
                                           </Button>
-                                          <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" text="Button">
+                                          <Button fx:id="button8" mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" text="RCSS" onAction="#handleButtonAction8">
                                              <VBox.margin>
                                                 <Insets left="11.0" right="5.0" />
                                              </VBox.margin></Button>

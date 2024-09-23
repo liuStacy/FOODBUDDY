@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faa0194f-1e25-45f3-9b8b-a0b3acbff835" name="Changes" comment="FHMS-11 FHMS-12">
+    <list default="true" id="faa0194f-1e25-45f3-9b8b-a0b3acbff835" name="Changes" comment="Add Edit Save Cancel Button">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/stacyliu/foodbuddy/Servive/GoShoppingTabService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/stacyliu/foodbuddy/FoodBuddyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/stacyliu/foodbuddy/FoodBuddyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/stacyliu/foodbuddy/Servive/HomeTabService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/stacyliu/foodbuddy/Servive/HomeTabService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/stacyliu/foodbuddy/model/FoodStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/stacyliu/foodbuddy/model/FoodStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/stacyliu/foodbuddy/Servive/AddFoodTabService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/stacyliu/foodbuddy/Servive/AddFoodTabService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/stacyliu/foodbuddy/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/stacyliu/foodbuddy/model/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/stacyliu/foodbuddy/foodBuddy.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/stacyliu/foodbuddy/foodBuddy.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726534516793</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add Edit Save Cancel Button">
+      <option name="closed" value="true" />
+      <created>1726719043504</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726719043504</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +168,7 @@
     <MESSAGE value="FHMS-20 Create POJOs FHMS-11  Complete the add food function" />
     <MESSAGE value="FHMS-11  Complete the add food function" />
     <MESSAGE value="FHMS-11 FHMS-12" />
-    <option name="LAST_COMMIT_MESSAGE" value="FHMS-11 FHMS-12" />
+    <MESSAGE value="Add Edit Save Cancel Button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Edit Save Cancel Button" />
   </component>
 </project>
