@@ -1,5 +1,10 @@
 package org.stacyliu.foodbuddy.model;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
+
+import java.io.File;
+import java.io.IOException;
 import java.util.List;
 
 public class Category {
@@ -46,5 +51,17 @@ public class Category {
         }
 
         return null;
+    }
+
+    public static Category loadCategoryJsonData() {
+        ObjectMapper mapper = new ObjectMapper();
+        mapper.registerModule(new JavaTimeModule());
+
+        try {
+            return mapper.readValue(new File("src/main/resources/org/stacyliu/foodbuddy/Data/FoodCategory.json"), Category.class);
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 }

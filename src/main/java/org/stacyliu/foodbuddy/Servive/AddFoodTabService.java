@@ -27,7 +27,7 @@ public class AddFoodTabService {
     private void categoryListSetup(TreeView<String> categoryList, TextField categoryTextField, TextField foodTextField, TextField countTextField, DatePicker expiryDatePicker) {
         // Add Food tab
         // CategoryList data from JSON
-        Category rootCategory = loadCategoryJsonData();
+        Category rootCategory = Category.loadCategoryJsonData();
         if (rootCategory != null) {
             TreeItem<String> rootItem = buildTree(rootCategory);
             categoryList.setRoot(rootItem);
@@ -52,18 +52,6 @@ public class AddFoodTabService {
                 expiryDatePicker.setValue(null);
             }
         });
-    }
-
-    private Category loadCategoryJsonData() {
-        ObjectMapper mapper = new ObjectMapper();
-        mapper.registerModule(new JavaTimeModule());
-
-        try {
-            return mapper.readValue(new File("src/main/resources/org/stacyliu/foodbuddy/Data/FoodCategory.json"), Category.class);
-        } catch (IOException e) {
-            e.printStackTrace();
-            return null;
-        }
     }
 
     // Build a tree structure from the Category object
